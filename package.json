@@ -69,6 +69,6 @@
     "compile:css": "node-sass scss/placenode.scss css/placenode.css",
     "compile:css:production": "node-sass scss/placenode.scss css/placenode.min.css --output-style compressed",
     "build": "rollup -c",
-    "prepublish": "npm run build"
+    "build:production": "npm run build && npm run css"
   }
 }
