@@ -1,5 +1,5 @@
-# react-placenode
-🤖 A placeholder component for heavy load resources like images, cards, list and so on. This package consists of 2 main components.
+# React Placenode
+A placeholder component for heavy load resources like images, cards, list and so on. This package consists of 2 main components.
 
  - **Placenode component** 
  It can be useful in a situation where a user has to wait for the content to load e.g. when fetching data from APIs or databases.
@@ -329,3 +329,6 @@ export default App;
 //#endregion component
 
 ```
+
+## License
+MIT
