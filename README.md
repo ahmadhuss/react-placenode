@@ -27,7 +27,7 @@ yarn add react-placenode
 
 ## Getting Started
 
-Install `react-placenode` from NPM. Import CSS file or you could also import the SASS file if you are using a preprocessor.
+Install `react-placenode` and import CSS file or you could also import the SASS file if you are using a preprocessor.
 
 ```js
 // import css file
