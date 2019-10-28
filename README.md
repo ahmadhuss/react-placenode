@@ -13,6 +13,18 @@ A placeholder component for heavy load resources like images, cards, list and so
 ![Example of the PlacenodeImage component](https://raw.githubusercontent.com/ahmadHuss/react-placenode/master/docs/001.gif)
 
 
+## Installation
+npm:
+```
+npm install --save react-placenode
+```
+
+Yarn:
+```
+yarn add react-placenode
+```
+
+
 ## Getting Started
 
 Install `react-placenode` from NPM. Import CSS file or you could also import the SASS file if you are using a preprocessor.
