@@ -1,0 +1,74 @@
+{
+  "name": "react-placenode",
+  "version": "1.0.0",
+  "description": "A placeholder component for heavy load resources like images, cards, list and so on.",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadHuss/react-placenode.git"
+  },
+  "keywords": [
+    "react-placenode",
+    "placeholder",
+    "react",
+    "component",
+    "components",
+    "react-component",
+    "ui"
+  ],
+  "author": "Ahmad Hussnain",
+  "email": "ahmadhussnain750@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmadHuss/react-placenode/issues"
+  },
+  "homepage": "https://github.com/ahmadHuss/react-placenode#readme",
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "node-sass": "^4.13.0",
+    "prettier": "^1.18.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "rimraf": "^3.0.0",
+    "rollup": "^1.26.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0"
+  },
+  "scripts": {
+    "clean": "rimraf lib es css",
+    "lint": "eslint --ignore-path .gitignore --fix -- .",
+    "pretest": "npm run clean && npm run lint",
+    "css": "npm run compile:css && npm run compile:css:production",
+    "compile:css": "node-sass scss/placenode.scss css/placenode.css",
+    "compile:css:production": "node-sass scss/placenode.scss css/placenode.min.css --output-style compressed",
+    "build": "rollup -c",
+    "prepublish": "npm run build"
+  }
+}
