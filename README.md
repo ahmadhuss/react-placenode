@@ -7,7 +7,7 @@ A placeholder component for heavy load resources like images, cards, list and so
  ![Example of the Placenode component](https://raw.githubusercontent.com/ahmadHuss/react-placenode/master/docs/000.gif)
   
   - **PlacenodeImage component** 
- It reserve space for the image and helps the user to know the image is loading. You have to manually render your image with your component state logic. 
+ It reserves space for the image and helps the user to know the image is loading. You have to manually render your image with your component state logic. 
  
 #### Demo:
 ![Example of the PlacenodeImage component](https://raw.githubusercontent.com/ahmadHuss/react-placenode/master/docs/001.gif)
